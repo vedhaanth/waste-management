@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Waste Wise Companion",
+    "slug": "waste-wise-companion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "web": {},
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Waste Wise Companion to access your camera to scan waste items."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Waste Wise Companion to access your location to find nearby recycling centers."
+        }
+      ]
+    ]
+  }
+}

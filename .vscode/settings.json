@@ -1,0 +1,9 @@
+{
+    "deno.enable": true,
+    "deno.enablePaths": [
+        "waste/supabase/functions",
+        "./waste/supabase/functions"
+    ],
+    "deno.unstable": true,
+    "deno.lint": true
+}
